@@ -58,6 +58,8 @@ public class Calculator {
     private static int secondOperand() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите следующий аргумент - целое число");
+        System.out.println("second commit");
+        System.out.println("second commit");
         int second = scanner.nextInt();
         return second;
     }
